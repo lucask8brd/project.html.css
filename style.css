@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: green;
+    color: green;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    background-color: palegoldenrod; 
+    padding: 20px;
+    border-radius: 8px; 
+    width: 300px; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+}
+
+.contact-info h2 {
+    text-align: center; 
+    color: red; 
+}
+
+.contact-info p {
+    margin: 10px 0; 
+    color: red; 
+
+}
+
+.contact-info a {
+    color: #007BFF; /* Cor dos links */
+    text-decoration: none; 
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+}
+
+.social-links a {
+    display: block; 
+    margin-top: 5px; 
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
